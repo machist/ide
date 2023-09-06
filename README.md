@@ -6,5 +6,5 @@ my `neovim` setup
 
 please install `ripgrep`
 ```bash
-git clone https://codeberg.org/mach/ide .config/nvim
+git clone https://github.com/machst/ide .config/nvim
 ```
