@@ -44,8 +44,10 @@ return require('packer').startup(function(use)
   use("theprimeagen/refactoring.nvim")
   use("mbbill/undotree")
   use("tpope/vim-fugitive")
-  use("nvim-treesitter/nvim-treesitter-context");
-  use("fatih/vim-go");
+  use("nvim-treesitter/nvim-treesitter-context")
+  use("fatih/vim-go")
+
+  use {"akinsho/toggleterm.nvim", tag = '*' }
 
   use {
 	  'VonHeikemen/lsp-zero.nvim',
