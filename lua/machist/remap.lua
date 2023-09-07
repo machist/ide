@@ -11,6 +11,10 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
+vim.keymap.set("n", "<leader>bv", ":vsplit<CR><C-w>l", { noremap = true })
+vim.keymap.set("n", "<leader>bh", ":wincmd h<CR>", { noremap = true })
+vim.keymap.set("n", "<leader>bl", ":wincmd l<CR>", { noremap = true })
+
 vim.keymap.set("n", "<leader>vwm", function()
     require("vim-with-me").StartVimWithMe()
 end)
